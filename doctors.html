@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Doctor - Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+</head>
+<body>
+    <!-- Header -->
+   <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+
+    <section class="breadcrum">
+        <h1>Doctors</h1>
+        <div class="subtitle">
+          <a href="index.html">Home</a>
+          <div class="round"></div>
+          <a href="doctors.html">Hospital Service</a>
+          <div class="round"></div>
+          <span class="active">Doctor</span>
+        </div>
+    </section>
+
+        
+            </div>
+        </section>
+
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Search Header -->
+        <div class="search-header">
+            <div class="search-bar">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput-doc" class="search-input" oninput="searchDoctors()" placeholder="Search for Doctors, Hospitals, Clinics">
+                </div>
+                
+            </div>
+            <div class="results-info">
+                <div class="results-count">
+                    Showing <strong id="resultsCount">0</strong> Doctors for you
+                </div>
+                <div class="sort-filter">
+                    <label>Sort By</label>
+                    <select class="sort-select" id="sortSelect" onchange="sortDoctors()">
+                        <option value="name">Name</option>
+                        <option value="experience">Experience</option>
+                    </select>
+                    <div class="view-toggle">
+                        <button class="view-btn active" onclick="changeView('grid')"><i class="fas fa-th"></i></button>
+                        <button class="view-btn" onclick="changeView('list')"><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Overlay -->
+        <div class="filter-overlay" id="filterOverlay" style="display: none;"></div>
+
+        <!-- Mobile Filter Toggle Button -->
+        <button class="mobile-filter-toggle" style="display: none;">
+            <i class="fas fa-filter"></i>
+        </button>
+
+        <!-- Sidebar Filters -->
+        <aside class="sidebar" id="sidebar">
+            <button class="mobile-filter-close" style="display: none;">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="filter-section">
+                <div class="filter-header">
+                    <h3>Filter</h3>
+                    <span class="clear-all" onclick="clearAllFilters()">Clear Filter</span>
+                </div>
+
+                <!-- Specialities Filter -->
+                <div class="filter-group">
+                    <h4 onclick="toggleFilterSection(this)">
+                        Specialities
+                        <i class="fas fa-chevron-down"></i>
+                    </h4>
+                    <div class="filter-options collapse" id="specialitiesFilter">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <!-- Gender Filter -->
+                <div class="filter-group">
+                    <h4 onclick="toggleFilterSection(this)">
+                        Gender
+                        <i class="fas fa-chevron-down"></i>
+                    </h4>
+                    <div class="filter-options collapsed">
+                        <div class="filter-option">
+                            <input type="radio" name="gender" value="all" id="genderAll" checked>
+                            <label for="genderAll">All</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="radio" name="gender" value="male" id="genderMale">
+                            <label for="genderMale">Male</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="radio" name="gender" value="female" id="genderFemale">
+                            <label for="genderFemale">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Filter -->
+                <div class="filter-group">
+                    <h4 onclick="toggleFilterSection(this)">
+                        Experience
+                        <i class="fas fa-chevron-down"></i>
+                    </h4>
+                    <div class="filter-options collapsed" id="expFilter">
+                        <div class="filter-option">
+                            <input type="checkbox" id="exp2" value="2">
+                            <label for="exp2">2+ Years</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="exp5" value="5">
+                            <label for="exp5">5+ Years</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="exp10" value="10">
+                            <label for="exp10">10+ Years</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="exp15" value="15">
+                            <label for="exp15">15+ Years</label>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+        </aside>
+
+        <!-- Doctors Grid -->
+        <main class="doctors-content" id="doctorsGrid">
+            <!-- Doctor cards will be inserted here -->
+        </main>
+
+        <!-- Pagination -->
+        <div class="pagination-wrapper" id="paginationWrapper" style="display: none;">
+            <div class="pagination">
+                <button class="pagination-btn" id="prevPage" onclick="changePage('prev')">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div id="paginationNumbers"></div>
+                <button class="pagination-btn" id="nextPage" onclick="changePage('next')">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+
+
+        <!-- No Results -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <i class="fas fa-user-md"></i>
+            <h3>No Doctors Found</h3>
+            <p>Try adjusting your search filters</p>
+        </div>
+        
+    </div>
+     <!-- Footer -->
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+    <script src="./assets/js/doctor.js"></script>
+
+    
+</body>
+</html>

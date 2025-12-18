@@ -1,0 +1,69 @@
+/* Cursor Variables */
+:root {
+    --cursor-dot-size: 8px;
+    --cursor-outline-size: 20px;
+    --cursor-outline-hover-size: 30px;
+    --cursor-color: rgb(0, 102, 204);
+}
+
+/* Hide default cursor */
+/* body {
+    cursor: none;
+} */
+
+/* Custom Cursor Animation */
+.cursor-dot {
+    width: var(--cursor-dot-size);
+    height: var(--cursor-dot-size);
+    background-color: var(--cursor-color);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                height 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                background-color 0.4s ease,
+                opacity 0.3s ease;
+}
+
+.cursor-outline {
+    width: var(--cursor-outline-size);
+    height: var(--cursor-outline-size);
+    border: 2px solid var(--cursor-color);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                border-color 0.4s ease,
+                opacity 0.3s ease,
+                background-color 0.4s ease;
+    background-color: transparent;
+}
+
+/* Hover state - fill the circle */
+.cursor-dot.hover {
+    width: 0;
+    height: 0;
+    opacity: 0.2;
+}
+
+.cursor-outline.hover {
+    width: var(--cursor-outline-hover-size);
+    height: var(--cursor-outline-hover-size);
+   border: 0px;
+    background-color: rgba(0, 102, 204, 0.404);
+}
+
+/* Click state - shrink effect */
+.cursor-dot.click {
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.cursor-outline.click {
+    transform: translate(-50%, -50%) scale(0.85);
+}
+

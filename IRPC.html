@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRPC - Institutional Research Promotion Cell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+
+    <section class="breadcrum">
+        <h1>IRPC</h1>
+        <div class="subtitle">
+          <a href="index.html">Home</a>
+          <div class="round"></div>
+          <a href="research.html">Research & Innovation</a>
+          <div class="round"></div>
+          <span class="active">IRPC</span>
+        </div>
+    </section>
+
+    <!-- IRPC Information Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About IRPC</h2>
+                <p class="section-description">Dedicated to promoting and facilitating research activities across the institution</p>
+            </div>
+            <div class="irpc-info">
+                <div class="irpc-info-card">
+                    <div class="irpc-info-card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To create a vibrant research ecosystem that encourages innovation, interdisciplinary collaboration, and impactful contributions to society through cutting-edge research initiatives.</p>
+                </div>
+                <div class="irpc-info-card">
+                    <div class="irpc-info-card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To establish our institution as a globally recognized center of research excellence, fostering innovation and developing solutions for contemporary challenges.</p>
+                </div>
+                <div class="irpc-info-card">
+                    <div class="irpc-info-card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Our Objectives</h3>
+                    <p>Facilitate research funding opportunities, promote collaborative research, organize seminars and workshops, and support publication and patent activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="section hospital-services" id="IRPC-Activities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recent Activities</h2>
+                <p class="section-description">Highlighting our latest research events and initiatives</p>
+            </div>
+            <div class="irpc-activities-grid" id="irpc-activitiesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="IRPC-Projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Research Projects</h2>
+                <p class="section-description">Innovative projects driving research excellence</p>
+            </div>
+            <div class="irpc-projects-grid" id="irpc-projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Patents Section -->
+    <section class="section hospital-services" id="IRPC-Patents">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Patents & Innovations</h2>
+                <p class="section-description">Protecting intellectual property and fostering innovation</p>
+            </div>
+            <div class="irpc-patents-grid" id="irpc-patentsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="section" id="IRPC-Collabration">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Collaborations</h2>
+                <p class="section-description">Building partnerships for research excellence</p>
+            </div>
+            <div class="irpc-collaboration-tabs">
+                <button class="irpc-tab-btn irpc-active" data-tab="national">National</button>
+                <button class="irpc-tab-btn" data-tab="international">International</button>
+            </div>
+            <div class="irpc-collaboration-content irpc-active" id="national">
+                <div class="irpc-collaboration-grid" id="nationalGrid"></div>
+            </div>
+            <div class="irpc-collaboration-content" id="international">
+                <div class="irpc-collaboration-grid" id="internationalGrid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Researchers Section -->
+    <section class="section hospital-services" id="IRPC-Board" style="margin-bottom: 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Researchers</h2>
+                <p class="section-description">Meet our distinguished research community</p>
+            </div>
+            <div class="irpc-researchers-hierarchy" id="irpc-researchersSection"></div>
+        </div>
+    </section>
+
+    <!-- Researcher Profile Modal -->
+    <div class="modal" id="irpc-researcherModal">
+        <div class="irpc-modal-content">
+            <button class="irpc-modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="irpc-modal-header">
+                <div class="irpc-modal-profile-image">
+                    <img  id="irpc-modal-profile-image"/>
+                </div>
+                <div>
+                    <h2 id="irpc-modalName"></h2>
+                    <p id="irpc-modalPosition"></p>
+                </div>
+            </div>
+            <div class="irpc-modal-body">
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Research Interests
+                    </div>
+                    <div class="interest-tags" id="irpc-modalInterests"></div>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-project-diagram"></i>
+                        Projects
+                    </div>
+                    <ul class="profile-list" id="irpc-modalProjects"></ul>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-file-alt"></i>
+                        Publications
+                    </div>
+                    <ul class="profile-list" id="irpc-modalPublications"></ul>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-users"></i>
+                        Conferences
+                    </div>
+                    <ul class="profile-list" id="irpc-modalConferences"></ul>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-certificate"></i>
+                        Patents
+                    </div>
+                    <ul class="profile-list" id="irpc-modalPatents"></ul>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-award"></i>
+                        Awards & Innovations
+                    </div>
+                    <ul class="profile-list" id="irpc-modalAwards"></ul>
+                </div>
+                <div class="irpc-profile-section">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-book"></i>
+                        Editorial Board Membership
+                    </div>
+                    <ul class="profile-list" id="irpc-modalEditorial"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/IRPC.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+</body>
+</html>

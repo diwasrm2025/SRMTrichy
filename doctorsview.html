@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Details - Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+</head>
+<body>
+   <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+
+    <section class="breadcrum">
+        <h1>Doctors</h1>
+        <div class="subtitle">
+          <a href="index.html">Home</a>
+          <div class="round"></div>
+          <a href="doctors.html">Doctors</a>
+          <div class="round"></div>
+          <span class="active">Doctor Details</span>
+        </div>
+    </section>
+
+        
+            
+
+
+    <div class="doc-container" id="doc-details">
+
+        <div class="doc-profile-header">
+            <div class="doc-profile-top">
+                <img id="profileImage" src="" alt="Doctor Profile" class="doc-profile-image" >
+                <div class="doc-profile-info">
+                    <h1 class="doc-doctor-name" id="doctorName">Loading...</h1>
+                    <p class="doc-designation" id="education">-</p>
+                    <p class="doc-designation" id="designation">Loading...</p>
+                    <span class="doc-specialty-badge" id="specialty">Loading...</span>
+                    <a id="emailBtn" href="#" class="doc-specialty-badge">
+                            <i class="fas fa-envelope"></i>
+                    </a>
+                    <a id="linkedin" href="#" class="doc-specialty-badge">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a id="youtube" href="#" class="doc-specialty-badge">
+                            <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a id="instagram" href="#" class="doc-specialty-badge">
+                            <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <div class="doc-quick-stats">
+                        <div class="doc-stat-item">
+                            <div class="doc-stat-icon">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <div class="doc-stat-details">
+                                <h4 id="experience">0</h4>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
+                        <div class="doc-stat-item">
+                            <div class="doc-stat-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <div class="doc-stat-details">
+                                <h4 id="languages">-</h4>
+                                <p>Languages</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="doc-contact-buttons">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="doc-content-grid">
+            <div class="doc-info-card doc-summary-card">
+                <h2 class="doc-card-title">
+                    <i class="fas fa-user-circle"></i> Profile Summary
+                </h2>
+                <p class="doc-summary-text" id="profileSummary">Loading...</p>
+            </div>
+        </div>
+
+        <div class="doc-content-grid">
+            <div class="doc-info-card doc-expertise-card">
+                <h2 class="doc-card-title">
+                    <i class="fas fa-stethoscope"></i> Areas of Expertise
+                </h2>
+                <div class="doc-expertise-tags" id="expertiseTags"></div>
+            </div>
+        </div>
+
+        <div class="doc-content-grid">
+            <div class="doc-info-card">
+                <h2 class="doc-card-title">
+                    <i class="fas fa-briefcase"></i> Professional Details
+                </h2>
+                
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Medical Council</span>
+                    <span class="doc-info-value" id="medicalCouncil">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Employee Type</span>
+                    <span class="doc-info-value" id="employeeType">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Shift Type</span>
+                    <span class="doc-info-value" id="shiftType">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Department</span>
+                    <span class="doc-info-value" id="department">-</span>
+                </div>
+            </div>
+    
+            <div class="doc-info-card">
+                <h2 class="doc-card-title">
+                    <i class="fas fa-info-circle"></i> Personal Information
+                </h2>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Age</span>
+                    <span class="doc-info-value" id="age">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Gender</span>
+                    <span class="doc-info-value" id="gender">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Blood Group</span>
+                    <span class="doc-info-value" id="bloodGroup">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Nationality</span>
+                    <span class="doc-info-value" id="nationality">-</span>
+                </div>
+            </div>
+
+            <div class="doc-info-card">
+                <h2 class="doc-card-title">
+                    <i class="fas fa-map-marker-alt"></i> Contact & Location
+                </h2>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">Email</span>
+                    <span class="doc-info-value" id="email">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">City</span>
+                    <span class="doc-info-value" id="city">-</span>
+                </div>
+                <div class="doc-info-row">
+                    <span class="doc-info-label">State</span>
+                    <span class="doc-info-value" id="state">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="doc-awards-section" id="doc-awards-section">
+            <h2 class="doc-card-title">
+                <i class="fas fa-trophy"></i> Awards & Recognitions
+            </h2>
+            <div id="awardsContainer"></div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+    <script src="./assets/js/doctor.js"></script>
+   <script src="./assets/js/doctordetails.js"></script>
+
+</body>
+</html>

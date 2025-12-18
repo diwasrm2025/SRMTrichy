@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMC - Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+    <link rel="stylesheet" href="./assets/css/courses.css">
+
+</head>
+<body>
+     <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+    
+    <div class="container">
+        <div class="page-wrapper">
+            <!-- Sidebar -->
+            
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- UG Section -->
+                <section class="content-section active" id="ug-section">
+                    
+                    <div class="section-title">Description</div>
+                    <p class="description">
+                        The National Medical Commission (NMC) oversees and regulates medical education, faculty standards, institutional governance, and clinical training in accordance with national norms. Our institution strictly adheres to NMC guidelines to ensure transparency, quality education, and student welfare.    
+                    </p>
+
+
+                    <div id="ug-curriculum" class="content-panel nmc active">
+                        <div class="document-grid" id="ug-curriculum-grid">
+                            <div class="document-card">
+                                <div class="document-title">Dean & MS Details</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        
+                            <div class="document-card">
+                                <div class="document-title">Faculty</div>
+                                <a href="./assets/pdf/NMC Data/Faculty-Details-Website-upload-for-November-2025.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        
+                            <div class="document-card">
+                                <div class="document-title">Courses</div>
+                                <a href="./assets/pdf/NMC Data/Courses.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        
+                            <div class="document-card">
+                                <div class="document-title">Citizen Charter</div>
+                                <a href="./assets/pdf/NMC Data/TSRM-CITIZEN-CHARTER.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            
+
+                            <div class="document-card">
+                                <div class="document-title">Publications</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Anti Ragging</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Anti-Ragging Toll No</div>
+                                <a href="tel:1800-425-1231" class="document-link">
+                                   <i class="fa fa-phone"></i>1800-425-1231
+                                </a>
+                            </div>                            
+                            <div class="document-card">
+                                <div class="document-title">ICC</div>
+                                <a href="./assets/pdf/NMC Data/ICC.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Affiliating University</div>
+                                <a href="./assets/pdf/NMC Data/Affiliating-University-updated.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">UG Results 2021 To 2023</div>
+                                <a href="./assets/pdf/NMC Data/UG-RESULTS.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="document-card">
+                                <div class="document-title">PG Results 2021 To 2023</div>
+                                <a href="./assets/pdf/NMC Data/PG-RESULTS.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="document-card">
+                                <div class="document-title">CME</div>
+                                <a href="#" class="document-link" onclick="openCmeModal(event)">
+                                    View Datas <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            
+                            
+                            <div class="document-card">
+                                <div class="document-title">Sanctioned Intake / Recognition</div>
+                                <a href="#" class="document-link" onclick="openNmcModal(event)">
+                                    View Datas <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                           
+
+                            
+                            <div class="document-card">
+                                <div class="document-title">Essentiality Certificate (250 Beds)</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="document-card">
+                                <div class="document-title">Biometric Attendance Dashboard</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="document-card">
+                                <div class="document-title">List of Students Admitted</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            
+                            <div class="document-card">
+                                <div class="document-title">Clinical Materials</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="document-card">
+                                <div class="document-title">Statutory Disclosure</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Distribution of Beds</div>
+                                <a href="#" class="document-link">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+            </main>
+        </div>
+    </div>
+    <div id="nmcModal" class="nmc-modal">
+        <div class="nmc-modal-content">
+            <span class="nmc-close-btn" onclick="closeNmcModal()">&times;</span>
+            <h2>Sanctioned intake/ letter of permission/ recognition</h2>
+            <br>
+            <h3>University - UG</h3>
+            <hr>
+            <div id="ug-curriculum" class="content-panel nmc active">
+                <div class="document-grid" id="ug-curriculum-grid">
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/UG-AFFILIATION-ORDER-2019-2020-min.pdf" target="_blank">
+                                2019-2020 (150)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/" target="_blank">
+                                2020-2021 (150)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/2022 - 2023 150 TO 250 SEATS AFFILIATION ORDER.pdf" target="_blank">
+                                2022-2023 (250)
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+
+            <h3>University - PG</h3>
+            <hr>
+            <div id="ug-curriculum" class="content-panel nmc active">
+                <div class="document-grid" id="ug-curriculum-grid">
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/PG-AFFILIATION-ORDER-2019-2020-min.pdf" target="_blank">
+                                2019-2020                
+                            </a>                    
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/CLINICAL-PG-AFFILIATION-ORDER-2020-2021-GPA.pdf" target="_blank">
+                                2020-2021 (Clinical)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/NON-CLINICAL-PG-AFFILIATION-ORDER-2020-2021-CPA.pdf" target="_blank">
+                                2020-2021 (Pre & Para)
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+            <h3>NMC - UG</h3>
+            <hr>
+            <div id="ug-curriculum" class="content-panel nmc active">
+                <div class="document-grid" id="ug-curriculum-grid">
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#" target="_blank">
+                                UG - 150
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/LOP-250_LOR-UG_2023-compressed.pdf" target="_blank">
+                                PG - 250
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+
+            <h3>NMC - PG</h3>
+            <hr>
+            <div id="ug-curriculum" class="content-panel nmc active">
+                <div class="document-grid" id="ug-curriculum-grid">
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/LETTER-OF-PERMISSION-13-PG-DEPARTMENTS-1_compressed-1.pdf" target="_blank">
+                                Clinical
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="./assets/pdf/NMC Data/pre-para-nmc-2023.pdf" target="_blank">
+                                Pre & Para
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cmeModal" class="nmc-modal">
+        <div class="nmc-modal-content">
+            <span class="nmc-close-btn" onclick="closeCmeModal()">&times;</span>
+            <h2>Conference, CME, Seminars, Symposium</h2>
+            <br>
+            <div id="ug-curriculum" class="content-panel nmc active">
+                <div class="document-grid" id="ug-curriculum-grid">
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2018
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2023-CME
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2022-CME
+                            </a>
+                        </div>
+                    </div>
+
+                     <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2021-CME
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2020-CME
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2019-CME
+                            </a>
+                        </div>
+                    </div>
+                    <div class="document-card">
+                        <div class="document-title">
+                            <a href="#">
+                                2018-CME
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="./assets/js/nmcmodal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+</body>
+</html>

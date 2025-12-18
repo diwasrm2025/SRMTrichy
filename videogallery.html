@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+</head>
+<body>
+   <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+    <section class="breadcrum">
+        <h1>Video Gallery</h1>
+        <div class="subtitle">
+          <a href="library.html">Home</a>
+          <div class="round"></div>
+          <a href="./media.html">Media & Outreach</a>
+          <div class="round"></div>
+          <span class="active">Video Gallery</span>
+        </div>
+    </section>
+
+    <div class="video-container">
+       
+
+        <div class="video-search-section">
+            <div class="video-search-bar">
+                <input 
+                    type="text" 
+                    id="videoSearchInput" 
+                    placeholder="Search videos by title or description..."
+                    autocomplete="off"
+                >
+                <i class="fas fa-search video-search-icon"></i>
+            </div>
+        </div>
+
+        <div class="video-filters">
+            <div class="video-filter-group">
+                <label for="videoYearFilter">Filter by Year</label>
+                <select id="videoYearFilter">
+                    <option value="all">All Years</option>
+                </select>
+            </div>
+            <div class="video-filter-group">
+                <label for="videoMonthFilter">Filter by Month</label>
+                <select id="videoMonthFilter">
+                    <option value="all">All Months</option>
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </div>
+        </div>
+        <div id="videoNoVideo"></div>
+        <div class="video-grid" id="videoGrid"></div>
+    </div>
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-close-modal" onclick="closeVideoModal()">&times;</span>
+            <div class="video-modal-video-container">
+                <video id="modalVideo" controls autoplay controlsList="nodownload">
+                    <source id="videoSource" src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-modal-info">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <span class="video-date" id="modalDate"></span>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="./assets/js/library.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+    <script src="./assets/js/videogallery.js"></script>
+</body>
+</html>

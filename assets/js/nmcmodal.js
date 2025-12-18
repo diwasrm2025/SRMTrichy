@@ -1,0 +1,27 @@
+function openNmcModal(event) {
+    event.preventDefault();
+    document.getElementById("nmcModal").style.display = "flex";
+}
+
+function closeNmcModal() {
+    document.getElementById("nmcModal").style.display = "none";
+}
+
+function openCmeModal(e) {
+    e.preventDefault();
+    document.getElementById("cmeModal").style.display = "flex";
+}
+function closeCmeModal() {
+    document.getElementById("cmeModal").style.display = "none";
+}
+
+
+// Close modal when clicking outside
+window.addEventListener("click", function (e) {
+    if (e.target.classList.contains("nmc-modal")) {
+        e.target.style.display = "none";
+    }
+});
+
+
+
