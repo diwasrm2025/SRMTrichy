@@ -375,6 +375,21 @@
             }
         }
 
+        function toggleAccordion1(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            // Toggle only this accordion
+            if (isActive) {
+                header.classList.remove('active');
+                content.classList.remove('active');
+            } else {
+                header.classList.add('active');
+                content.classList.add('active');
+            }
+        }
+
+
         function switchTab(event, tabId) {
             const container = event.target.closest('.tabs-content-wrapper');
             container.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));

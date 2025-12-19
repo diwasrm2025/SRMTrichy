@@ -85,9 +85,6 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-              <li class='pdf'><a href="./assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><i class='fa fa-file-pdf'></i></li>
-              <li class='pdf'><a href="./assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><i class='fa fa-file-pdf'></i></li>
-              <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -113,7 +110,6 @@
               <ul class="dropdown">
               <li><a href="./doctors.html">Doctors</a></li>
               <li><a href="./bloodcamp.html">Blood Bank</a></li>
-              <li><a href="./pharmacy.html">Pharmacy</a></li>
               <li><a href="./hospital.html#services">Supporting Services</a></li>
               <li><a href="./hospital.html#camps">Camps</a></li>
             </ul>
