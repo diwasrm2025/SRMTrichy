@@ -144,9 +144,8 @@
                                                 <thead>
                                                     <tr>
                                                         <th style="width: 10%">S.No</th>
-                                                        <th style="width: 30%">Name of the Faculty</th>
-                                                        <th style="width: 40%">Designation</th>
-                                                        <th style="width: 20%">Experience</th>
+                                                        <th style="width: 40%">Name of the Faculty</th>
+                                                        <th style="width: 50%">Designation</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -155,7 +154,6 @@
                                                             <td data-label="S.No">${i+1}</td>
                                                             <td data-label="Name of the Faculty"><strong>${p.name}</strong></td>
                                                             <td data-label="Designation">${p.designation}</td>
-                                                            <td data-label="Experience"><span class="year-badge">${p.exp}+ Yrs</span></td>
                                                         </tr>
                                                     `).join('')}
                                                 </tbody>

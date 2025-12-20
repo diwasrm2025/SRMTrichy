@@ -7,12 +7,12 @@ function closeNmcModal() {
     document.getElementById("nmcModal").style.display = "none";
 }
 
-function openCmeModal(e) {
+function openCmeModal(e,id="cmeModal") {
     e.preventDefault();
-    document.getElementById("cmeModal").style.display = "flex";
+    document.getElementById(`${id}`).style.display = "flex";
 }
-function closeCmeModal() {
-    document.getElementById("cmeModal").style.display = "none";
+function closeCmeModal(id="cmeModal") {
+    document.getElementById(`${id}`).style.display = "none";
 }
 
 

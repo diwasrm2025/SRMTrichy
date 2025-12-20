@@ -38,25 +38,25 @@
                 ],
 
                 "faculty": [
-                    {"name": "Dr.P.Karthick", "designation": "Professor & HOD", "exp": 17},
-                    {"name": "Dr.S.Padma", "designation": "Professor", "exp": 19},
-                    {"name": "Dr.T.Karunaharan", "designation": "Professor", "exp": 25},
-                    {"name": "Dr.C.Balamurugan", "designation": "Professor", "exp": 20},
-                    {"name": "Dr.A.Zahir Hussain", "designation": "Professor", "exp": 13},
-                    {"name": "Dr.S.K. Manoj", "designation": "Professor", "exp": 10},
-                    {"name": "Dr.T.K. Sowmya", "designation": "Professor", "exp": 12},
-                    {"name": "Dr.Solaimuthu Rajagobal", "designation": "Assistant Professor", "exp": 3},
-                    {"name": "Dr.DineshBabu S.G", "designation": "Assistant Professor", "exp": 2},
-                    {"name": "Dr.Ponprabu D.M", "designation": "Assistant Professor", "exp": 2},
-                    {"name": "Dr.Janardhan R", "designation": "Assistant Professor", "exp": 1},
-                    {"name": "Dr.Sivaseelan N", "designation": "Assistant Professor", "exp": 1},
-                    {"name": "Dr.Thivya K", "designation": "Assistant Professor", "exp": 2},
-                    {"name": "Dr.Vinoth Kumar P", "designation": "Assistant Professor", "exp": 2},
-                    {"name": "Dr.Divya", "designation": "Senior Resident", "exp": 0},
-                    {"name": "Dr.M. Akshaya", "designation": "Senior Resident", "exp": 0},
-                    {"name": "Dr.N.Sathish", "designation": "Senior Resident", "exp": 0},
-                    {"name": "Dr.Hema Bhargavi", "designation": "Senior Resident", "exp": 0},
-                    {"name": "Dr.R.Vignesh", "designation": "Senior Resident", "exp": 0}
+                    {"name": "Dr.P.Karthick", "designation": "Professor & HOD"},
+                    {"name": "Dr.S.Padma", "designation": "Professor"},
+                    {"name": "Dr.T.Karunaharan", "designation": "Professor"},
+                    {"name": "Dr.C.Balamurugan", "designation": "Professor"},
+                    {"name": "Dr.A.Zahir Hussain", "designation": "Professor"},
+                    {"name": "Dr.S.K. Manoj", "designation": "Professor"},
+                    {"name": "Dr.T.K. Sowmya", "designation": "Professor"},
+                    {"name": "Dr.Solaimuthu Rajagobal", "designation": "Assistant Professor"},
+                    {"name": "Dr.DineshBabu S.G", "designation": "Assistant Professor"},
+                    {"name": "Dr.Ponprabu D.M", "designation": "Assistant Professor"},
+                    {"name": "Dr.Janardhan R", "designation": "Assistant Professor"},
+                    {"name": "Dr.Sivaseelan N", "designation": "Assistant Professor"},
+                    {"name": "Dr.Thivya K", "designation": "Assistant Professor"},
+                    {"name": "Dr.Vinoth Kumar P", "designation": "Assistant Professor"},
+                    {"name": "Dr.Divya", "designation": "Senior Resident"},
+                    {"name": "Dr.M. Akshaya", "designation": "Senior Resident"},
+                    {"name": "Dr.N.Sathish", "designation": "Senior Resident"},
+                    {"name": "Dr.Hema Bhargavi", "designation": "Senior Resident"},
+                    {"name": "Dr.R.Vignesh", "designation": "Senior Resident"}
                 ],
 
                 "services_desc": "The Department provides comprehensive diagnostic, surgical and post-operative services for conditions affecting the abdomen, digestive system, endocrine glands, breast, skin and soft tissues. It also provides trauma and emergency care.",
@@ -298,19 +298,19 @@
 
                 "faculty_desc": "The department has a team of highly experienced faculty dedicated to providing quality surgical care, teaching and research.",
                 "faculty": [
-                    { "name": "Dr.P.RAMESH  VYRAVAN", "designation": "Professor & HOD", "exp": 23 },
-                    { "name": "Dr.N.VIJAY", "designation": "Professor", "exp": 13 },
-                    { "name": "Dr.G.SAMYNATHAN", "designation": "Professor", "exp": 12 },
-                    { "name": "Dr.K.SULTHAN BASHA", "designation": "Associate Professor", "exp": 6 },
-                    { "name": "Dr.M.VENKATESH", "designation": "Assistant Professor", "exp": 5 },
-                    { "name": "Dr.G.CHANDERPAUL", "designation": "Assistant Professor", "exp": 3 },
-                    { "name": "Dr.H.M.MUBARAK ALI", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr.S.NATESH SARAVANAN", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr.M.SUNDAR PRAKASH", "designation": "Assistant Professor", "exp": 1 },
-                    { "name": "Dr.G.SURENDRAN", "designation": "Senior Resident", "exp": 1 },
-                    { "name": "Dr.S.PARTHEESWAR", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr.C.PRATHAP", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr.PAGADALA VIVEK", "designation": "Senior Resident", "exp": 0 }
+                    { "name": "Dr.P.RAMESH  VYRAVAN", "designation": "Professor & HOD"},
+                    { "name": "Dr.N.VIJAY", "designation": "Professor"},
+                    { "name": "Dr.G.SAMYNATHAN", "designation": "Professor"},
+                    { "name": "Dr.K.SULTHAN BASHA", "designation": "Associate Professor"},
+                    { "name": "Dr.M.VENKATESH", "designation": "Assistant Professor"},
+                    { "name": "Dr.G.CHANDERPAUL", "designation": "Assistant Professor"},
+                    { "name": "Dr.H.M.MUBARAK ALI", "designation": "Assistant Professor"},
+                    { "name": "Dr.S.NATESH SARAVANAN", "designation": "Assistant Professor"},
+                    { "name": "Dr.M.SUNDAR PRAKASH", "designation": "Assistant Professor"},
+                    { "name": "Dr.G.SURENDRAN", "designation": "Senior Resident"},
+                    { "name": "Dr.S.PARTHEESWAR", "designation": "Senior Resident"},
+                    { "name": "Dr.C.PRATHAP", "designation": "Senior Resident"},
+                    { "name": "Dr.PAGADALA VIVEK", "designation": "Senior Resident" }
                 ],
 
                 "services_desc": "The department caters to a wide spectrum of orthopaedic conditions through outpatient clinics, emergency services, operative procedures and rehabilitation support.",
@@ -471,11 +471,11 @@
                 ],
 
                 "faculty": [
-                    { "name": "Dr. G. Gandhi", "designation": "Professor & HOD", "exp": 20 },
-                    { "name": "Dr. Arun Magendran", "designation": "Professor", "exp": 15 },
-                    { "name": "Dr. Vijayakumar", "designation": "Professor", "exp": 17 },
-                    { "name": "Dr. Ajay Manickam", "designation": "Assistant Professor", "exp": 8 },
-                    { "name": "Dr. Raam Deepak", "designation": "Assistant Professor", "exp": 7 }
+                    { "name": "Dr. G. Gandhi", "designation": "Professor & HOD"},
+                    { "name": "Dr. Arun Magendran", "designation": "Professor"},
+                    { "name": "Dr. Vijayakumar", "designation": "Professor"},
+                    { "name": "Dr. Ajay Manickam", "designation": "Assistant Professor"},
+                    { "name": "Dr. Raam Deepak", "designation": "Assistant Professor" }
                 ],
 
                 "services_desc": "The ENT Department provides comprehensive outpatient, inpatient, emergency, and surgical services for all conditions involving the ear, nose, throat, head, and neck.",
@@ -615,16 +615,16 @@
                 "faculty_desc": "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
 
                 "faculty": [
-                    { "name": "Dr.Ilango", "designation": "Prof & HoD", "exp": 24 },
-                    { "name": "Dr.Revathi", "designation": "Professor", "exp": 20 },
-                    { "name": "Dr.Vinnarasi", "designation": "Associate Professor", "exp": 7 },
-                    { "name": "Dr.Meenadevi", "designation": "Associate Professor", "exp": 9 },
-                    { "name": "Dr.Dhyan", "designation": "Assistant Professor", "exp": 4 },
-                    { "name": "Dr.Aiswarya", "designation": "Assistant Professor", "exp": 1 },
-                    { "name": "Dr.Divyapriya", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr.Suchieta Jennil", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr.Alhana Begam", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr.Kiruba", "designation": "Senior Resident", "exp": 0 }
+                    { "name": "Dr.Ilango", "designation": "Prof & HoD"},
+                    { "name": "Dr.Revathi", "designation": "Professor"},
+                    { "name": "Dr.Vinnarasi", "designation": "Associate Professor"},
+                    { "name": "Dr.Meenadevi", "designation": "Associate Professor"},
+                    { "name": "Dr.Dhyan", "designation": "Assistant Professor"},
+                    { "name": "Dr.Aiswarya", "designation": "Assistant Professor"},
+                    { "name": "Dr.Divyapriya", "designation": "Senior Resident"},
+                    { "name": "Dr.Suchieta Jennil", "designation": "Senior Resident"},
+                    { "name": "Dr.Alhana Begam", "designation": "Senior Resident"},
+                    { "name": "Dr.Kiruba", "designation": "Senior Resident" }
                 ],
 
                 "services_desc": "The department provides comprehensive diagnostic and consultative services across multiple ophthalmic specialties.",
@@ -786,29 +786,29 @@
 
                 "faculty_desc": "Highly Qualified Faculty with Extensive Clinical and Academic Experience.",
                 "faculty": [
-                    { "name": "Dr.Dhivya Sethuraman", "designation": "Professor & HOD", "exp": "14" },
-                    { "name": "Dr.S.Revwathy", "designation": "Professor & Director", "exp": "35" },
-                    { "name": "Dr.J.Shankar", "designation": "Professor", "exp": "31" },
-                    { "name": "Dr.S.Banumathy", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr.Lakshmi Swapna Dourvasala", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr.T.Dhiviya Narbhavi", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr.Shaik Salma", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr.Swarna Priya", "designation": "Associate Professor", "exp": "16" },
-                    { "name": "Dr.T.Harini", "designation": "Associate Professor", "exp": "17" },
-                    { "name": "Dr.P.Pradeepa", "designation": "Assistant Professor", "exp": "11" },
-                    { "name": "Dr.J.Jovita Deepthy", "designation": "Assistant Professor", "exp": "8" },
-                    { "name": "Dr.Sushma.M S", "designation": "Assistant Professor", "exp": "1" },
-                    { "name": "Dr.Sangeetha Janani", "designation": "Assistant Professor", "exp": "3" },
-                    { "name": "Dr.Raja Suganya", "designation": "Assistant Professor", "exp": "2" },
-                    { "name": "Dr.Kohila Devi", "designation": "Assistant Professor", "exp": "1" },
-                    { "name": "Dr.B.Saranya", "designation": "Assistant Professor", "exp": "12" },
-                    { "name": "Dr.Revathy.MC", "designation": "Assistant Professor", "exp": "6" },
-                    { "name": "Dr.M.Ramalakshmi", "designation": "Senior Resident", "exp": "5" },
-                    { "name": "Dr.Noorul Fazila", "designation": "Senior Resident", "exp": "1" },
-                    { "name": "Dr.A.Emaya", "designation": "Senior Resident", "exp": "0" },
-                    { "name": "Dr.Vandhana Beera", "designation": "Senior Resident", "exp": "0" },
-                    { "name": "Dr.S.Dhivyaa", "designation": "Senior Resident", "exp": "0" },
-                    { "name": "Dr.Madhumitha", "designation": "Senior Resident", "exp": "0" }
+                    { "name": "Dr.Dhivya Sethuraman", "designation": "Professor & HOD"},
+                    { "name": "Dr.S.Revwathy", "designation": "Professor & Director"},
+                    { "name": "Dr.J.Shankar", "designation": "Professor"},
+                    { "name": "Dr.S.Banumathy", "designation": "Associate Professor"},
+                    { "name": "Dr.Lakshmi Swapna Dourvasala", "designation": "Associate Professor"},
+                    { "name": "Dr.T.Dhiviya Narbhavi", "designation": "Associate Professor"},
+                    { "name": "Dr.Shaik Salma", "designation": "Associate Professor"},
+                    { "name": "Dr.Swarna Priya", "designation": "Associate Professor"},
+                    { "name": "Dr.T.Harini", "designation": "Associate Professor"},
+                    { "name": "Dr.P.Pradeepa", "designation": "Assistant Professor"},
+                    { "name": "Dr.J.Jovita Deepthy", "designation": "Assistant Professor"},
+                    { "name": "Dr.Sushma.M S", "designation": "Assistant Professor"},
+                    { "name": "Dr.Sangeetha Janani", "designation": "Assistant Professor"},
+                    { "name": "Dr.Raja Suganya", "designation": "Assistant Professor"},
+                    { "name": "Dr.Kohila Devi", "designation": "Assistant Professor"},
+                    { "name": "Dr.B.Saranya", "designation": "Assistant Professor"},
+                    { "name": "Dr.Revathy.MC", "designation": "Assistant Professor"},
+                    { "name": "Dr.M.Ramalakshmi", "designation": "Senior Resident"},
+                    { "name": "Dr.Noorul Fazila", "designation": "Senior Resident"},
+                    { "name": "Dr.A.Emaya", "designation": "Senior Resident"},
+                    { "name": "Dr.Vandhana Beera", "designation": "Senior Resident"},
+                    { "name": "Dr.S.Dhivyaa", "designation": "Senior Resident"},
+                    { "name": "Dr.Madhumitha", "designation": "Senior Resident" }
                 ],
 
                 "services_desc": "The Department offers Round-The-Clock Obstetric and Gynaecological Services.",
@@ -912,25 +912,25 @@
                     {
                         "name": "CME on Ethicon (Medical Ethics)",
                         "event": "Obstetrics & Gynaecology",
-                        "path": "OBG/1.jpg",
+                        "path": "Obstetrics_gynaecology/1.jpg",
                         "date": "20.01.2024"
                     },
                     {
                         "name": "Workshop on 6P’s",
                         "event": "Obstetrics & Gynaecology",
-                        "path": "OBG/2.jpg",
+                        "path": "Obstetrics_gynaecology/2.jpg",
                         "date": "11.09.2024"
                     },
                     {
                         "name": "CME on Prevention of Cancer Cervix",
                         "event": "Obstetrics & Gynaecology",
-                        "path": "OBG/3.jpg",
+                        "path": "Obstetrics_gynaecology/3.jpg",
                         "date": "14.12.2024"
                     },
                     {
                         "name": "Guest Lecture on Aneuploidy",
                         "event": "Obstetrics & Gynaecology",
-                        "path": "OBG/4.jpg",
+                        "path": "Obstetrics_gynaecology/4.jpg",
                         "date": "28.02.2025"
                     }
                 ]
@@ -967,30 +967,30 @@
                 ],
 
                 "faculty": [
-                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD", "exp": 14 },
-                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor", "exp": 21 },
-                    { "name": "Dr Jothi N", "designation": "Professor", "exp": 19 },
-                    { "name": "Dr Balasubramanian S", "designation": "Professor", "exp": 11 },
-                    { "name": "Dr Kirubahar R", "designation": "Professor", "exp": 13 },
-                    { "name": "Dr Selvaraj N", "designation": "Associate Professor", "exp": 9 },
-                    { "name": "Dr Sundari B", "designation": "Associate Professor", "exp": 7 },
-                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor", "exp": 6 },
-                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor", "exp": 7 },
-                    { "name": "Dr Aishwarya S", "designation": "Associate Professor", "exp": 5 },
-                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr Kavitha M", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr Keerthana P", "designation": "Assistant Professor", "exp": 1 },
-                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor", "exp": 1 },
-                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor", "exp": 11 },
-                    { "name": "Dr Madhavan P", "designation": "Senior Resident", "exp": 1 },
-                    { "name": "Dr Uma M", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Meenakshi P", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Yazhini V", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Sivaram M", "designation": "Senior Resident", "exp": 0 },
-                    { "name": "Dr Santhosh RV", "designation": "Senior Resident", "exp": 0 }
+                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD"},
+                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor"},
+                    { "name": "Dr Jothi N", "designation": "Professor"},
+                    { "name": "Dr Balasubramanian S", "designation": "Professor"},
+                    { "name": "Dr Kirubahar R", "designation": "Professor"},
+                    { "name": "Dr Selvaraj N", "designation": "Associate Professor"},
+                    { "name": "Dr Sundari B", "designation": "Associate Professor"},
+                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor"},
+                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor"},
+                    { "name": "Dr Aishwarya S", "designation": "Associate Professor"},
+                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor"},
+                    { "name": "Dr Kavitha M", "designation": "Assistant Professor"},
+                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor"},
+                    { "name": "Dr Keerthana P", "designation": "Assistant Professor"},
+                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor"},
+                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor"},
+                    { "name": "Dr Madhavan P", "designation": "Senior Resident"},
+                    { "name": "Dr Uma M", "designation": "Senior Resident"},
+                    { "name": "Dr Meenakshi P", "designation": "Senior Resident"},
+                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident"},
+                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident"},
+                    { "name": "Dr Yazhini V", "designation": "Senior Resident"},
+                    { "name": "Dr Sivaram M", "designation": "Senior Resident"},
+                    { "name": "Dr Santhosh RV", "designation": "Senior Resident" }
                 ],
 
                 "services_desc": "The department delivers comprehensive anaesthesia, critical care and pain management services across operating theatres, ICUs and diagnostic areas.",
@@ -1060,21 +1060,122 @@
                 ]
             },
             {
-                id: "Radiodiagnosis", name: "Radio Diagnosis", icon: `<i class="material-symbols-outlined">rib_cage</i>`, color: "#dace26ff", colorDark: "#857c06ff",
-                desc: "Comprehensive respiratory care with pulmonary function testing.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
-                pubStats: [{label: "Publications", value: "19+"}],
-                pubHighlights: ["COPD management"],
-                pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
-                research: ["Asthma protocols", "TB treatment"],
-                events: ["World COPD Day"],
-                achievements: ["Excellence in Pulmonary Care"],
-                gallery: [{name: "PFT Lab", icon: "fa-wind", event: "Respiratory Lab", date: "Dec 2023"}]
+                id: "radiology",
+                name: "Radio Diagnosis",
+                icon: `<i class="material-symbols-outlined">rib_cage</i>`, color: "#dace26ff", colorDark: "#857c06ff",
+
+                desc: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation.",
+
+                "vision": "To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology.",
+                "mission": "To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
+
+                objectives: [
+                    "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
+                    "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
+                    "To utilize the values of professional ethics, lifelong learning and adaptability."
+                ],
+
+               "infra_desc": "The department is equipped with modern imaging facilities to support diagnostic and interventional radiology services.",
+                "infra": [
+                    "3 Tesla MRI Scanner – Siemens Vida",
+                    "Cardiac CT capable CT Scanner – Siemens Go All",
+                    "Digital Radiography and Fluoroscopy Units",
+                    "Ultrasound systems with Doppler and Elastography",
+                    "PACS and RIS integrated reporting systems",
+                    "Dedicated Interventional Radiology Suite"
+                ],
+
+                "faculty": [
+                    { "name": "Dr V Senthilnathan", "designation": "Professor & HOD"},
+                    { "name": "Dr Krishnakumar M", "designation": "Professor"},
+                    { "name": "Dr Govardhanan", "designation": "Professor"},
+                    { "name": "Dr C Ravindran", "designation": "Professor"},
+                    { "name": "Dr A M Anand", "designation": "Professor"},
+                    { "name": "Dr K A Dharan Venkatesh", "designation": "Associate Professor"},
+                    { "name": "Dr S Saraswathi", "designation": "Associate Professor"},
+                    { "name": "Dr B Ananda Kumar", "designation": "Assistant Professor"},
+                    { "name": "Dr Azmin", "designation": "Assistant Professor"},
+                    { "name": "Dr Ganesh", "designation": "Assistant Professor"},
+                    { "name": "Dr Sathya Priya", "designation": "Assistant Professor"},
+                    { "name": "Dr Balaji", "designation": "Senior Resident"},
+                    { "name": "Dr Shri Devi", "designation": "Senior Resident"},
+                    { "name": "Dr Firdhous Begum", "designation": "Senior Resident"},
+                    { "name": "Dr Dinesh Kumar", "designation": "Senior Resident"},
+                    { "name": "Dr Arun R", "designation": "Senior Resident" }
+                ],
+
+                "services_desc": "The department offers comprehensive diagnostic, interventional, and emergency radiology services with round-the-clock availability.",
+                "services": [
+                    "MRI – Brain, Spine, Musculoskeletal, Abdomen, Pelvis, Vascular and Specialized Imaging",
+                    "CT Imaging – Neuro, Chest, Abdomen, Pelvis, Musculoskeletal and Vascular Studies",
+                    "CT-guided biopsies, FNAC and drainage procedures",
+                    "Ultrasound and Doppler imaging including obstetric, vascular and musculoskeletal studies",
+                    "USG-guided interventional procedures and nerve blocks",
+                    "Digital X-ray and Fluoroscopy procedures (MCU, IVP, Barium, HSG, Fistulogram)",
+                    "Interventional Radiology procedures",
+                    "24/7 Emergency Radiology Services"
+                ],
+
+                "publication_overview": "Faculty members actively publish research papers in national and international radiology journals.",
+                "pubStats": [
+                    { "label": "Overall", "value": "30" },
+                    { "label": "International", "value": "22" },
+                    { "label": "National", "value": "8" }
+                ],
+
+                "pubYearwise": [
+                    {
+                        "year": "2025",
+                        "title": "Volumetric analysis of the pancreas in Autopsy Vs CECT: An observational study with insight into T2DM related changes.",
+                        "journal": "Journal of Clinical and Diagnostic Research",
+                        "type": "International"
+                    },
+                    {
+                        "year": "2025",
+                        "title": "Prevalence of Asymptomatic Gallstone during Routine Ultrasonography and its Associated Factors: A Cross-sectional Study from a Tertiary Care Teaching Hospital.",
+                        "journal": "GAIMS Journal of Medical Sciences",
+                        "type": "International"
+                    }
+                ],
+
+                "research_desc": "The department undertakes active clinical and translational research in advanced imaging techniques and workflow optimization.",
+                "research": [
+                    "Musculoskeletal MRI studies",
+                    "Neuro imaging research",
+                    "Oncology imaging protocols",
+                    "AI-assisted image analysis and workflow optimization",
+                    "Radiation dose reduction strategies and imaging protocol optimization"
+                ],
+
+                "events_desc": "The department regularly organizes academic and outreach programs to enhance radiology education and awareness.",
+                "events": [
+                    "Annual CME on Advances in Radiology",
+                    "Workshops on Interventional Radiology Techniques",
+                    "Resident academic programs, seminars and case discussions",
+                    "Community outreach programs for imaging awareness"
+                ],
+
+                "achievements_desc": "Key milestones and recognitions achieved by the department.",
+                "achievements": [
+                    "NABH and NABL accredited imaging facilities",
+                    "Faculty awards at state and national radiology conferences",
+                    "Successful implementation of PACS system"
+                ],
+
+                "gallery": [
+                    {
+                        "name": "MRI Suite",
+                        "event": "Radiology Department",
+                        "path": "Radiology/1.jpg",
+                        "date": "10 Mar 2025"
+                    },
+                    {
+                        "name": "CME – Advances in Radiology",
+                        "event": "Radiology Department",
+                        "path": "Radiology/2.jpg",
+                        "date": "05 Aug 2025"
+                    }
+                ]
             },
             {
                 id: "dentistry",
@@ -1112,13 +1213,13 @@
 
                 faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
                 faculty: [
-                    { "name": "Dr. U. Jayasimha Raj MDS", "designation": "Professor and HOD", "exp": 28 },
-                    { "name": "Dr. J. Asha MDS", "designation": "Associate Professor", "exp": 9 },
-                    { "name": "Dr. V. Sri Ram MDS", "designation": "Assistant Professor", "exp": 6 },
-                    { "name": "Dr. G. Bharath MDS", "designation": "Assistant Professor", "exp": 3 },
-                    { "name": "Dr. K. Iswarya MDS", "designation": "Assistant Professor", "exp": 2 },
-                    { "name": "Dr. G. Aarthi MDS", "designation": "Senior Resident", "exp": 1 },
-                    { "name": "Dr. B. Nandini MDS", "designation": "Senior Resident", "exp": 1 }
+                    { "name": "Dr. U. Jayasimha Raj MDS", "designation": "Professor and HOD"},
+                    { "name": "Dr. J. Asha MDS", "designation": "Associate Professor"},
+                    { "name": "Dr. V. Sri Ram MDS", "designation": "Assistant Professor"},
+                    { "name": "Dr. G. Bharath MDS", "designation": "Assistant Professor"},
+                    { "name": "Dr. K. Iswarya MDS", "designation": "Assistant Professor"},
+                    { "name": "Dr. G. Aarthi MDS", "designation": "Senior Resident"},
+                    { "name": "Dr. B. Nandini MDS", "designation": "Senior Resident" }
                 ],
 
                 services_desc: "The department embraces multiple dental specialties and provides a wide range of diagnostic and therapeutic services.",
@@ -1218,7 +1319,6 @@
                     }
                 ]
             }
-
         ];
 
        

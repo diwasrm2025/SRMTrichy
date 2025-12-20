@@ -216,7 +216,7 @@
                 ]
             },
             {
-                "id": "emergency",
+                "id": "Emergency Medicine",
                 "name": "Emergency Medicine",
                 "icon": "fa-truck-medical",
                 "color": "#ef5350",
@@ -377,8 +377,7 @@
                     "date": "13 Jul 2025 - 17 Jul 2025"
                     }
                 ]
-            }
-            ,
+            },
             {
                 "id": "paediatrics",
                 "name": "Paediatrics",
@@ -409,21 +408,21 @@
                 ],
 
                 "faculty": [
-                    { "name": "Dr. Sirajuddin Nazeer", "designation": "Professor & HOD", "exp": "21" },
-                    { "name": "Dr. D. Saminathan", "designation": "Professor", "exp": "28" },
-                    { "name": "Dr. R. Belgin Premkumar", "designation": "Professor", "exp": "10" },
-                    { "name": "Dr. T.R.R. Ananthy Shri", "designation": "Professor", "exp": "24" },
-                    { "name": "Dr. A. Agneeswaraan", "designation": "Associate Professor", "exp": "9" },
-                    { "name": "Dr. B. Muthuvel", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr. Bennie Christene James", "designation": "Assistant Professor", "exp": "7" },
-                    { "name": "Dr. Sugapradha", "designation": "Assistant Professor", "exp": "3" },
-                    { "name": "Dr. Dinesh Kumar", "designation": "Assistant Professor", "exp": "4" },
-                    { "name": "Dr. Ramkumar", "designation": "Assistant Professor", "exp": "2" },
-                    { "name": "Dr. Brindha", "designation": "Assistant Professor", "exp": "2" },
-                    { "name": "Dr. Parthiban", "designation": "Senior Resident", "exp": "3" },
-                    { "name": "Dr. Eslavath Shiva", "designation": "Senior Resident", "exp": "1" },
-                    { "name": "Dr. A. Vinothini", "designation": "Senior Resident", "exp": "1" },
-                    { "name": "Dr. Hamritha", "designation": "Senior Resident", "exp": "0" }
+                    { "name": "Dr. Sirajuddin Nazeer", "designation": "Professor & HOD"},
+                    { "name": "Dr. D. Saminathan", "designation": "Professor"},
+                    { "name": "Dr. R. Belgin Premkumar", "designation": "Professor"},
+                    { "name": "Dr. T.R.R. Ananthy Shri", "designation": "Professor"},
+                    { "name": "Dr. A. Agneeswaraan", "designation": "Associate Professor"},
+                    { "name": "Dr. B. Muthuvel", "designation": "Associate Professor"},
+                    { "name": "Dr. Bennie Christene James", "designation": "Assistant Professor"},
+                    { "name": "Dr. Sugapradha", "designation": "Assistant Professor"},
+                    { "name": "Dr. Dinesh Kumar", "designation": "Assistant Professor"},
+                    { "name": "Dr. Ramkumar", "designation": "Assistant Professor"},
+                    { "name": "Dr. Brindha", "designation": "Assistant Professor"},
+                    { "name": "Dr. Parthiban", "designation": "Senior Resident"},
+                    { "name": "Dr. Eslavath Shiva", "designation": "Senior Resident"},
+                    { "name": "Dr. A. Vinothini", "designation": "Senior Resident"},
+                    { "name": "Dr. Hamritha", "designation": "Senior Resident" }
                 ],
 
                 "services": [
@@ -550,11 +549,11 @@
                 ],
 
                 "faculty": [
-                    { "name": "Dr. R. Gnanasekaran", "designation": "Professor", "exp": "9" },
-                    { "name": "Dr. K. Akila", "designation": "Associate Professor", "exp": "7" },
-                    { "name": "Dr. S. Dharshini", "designation": "Assistant Professor", "exp": "2" },
-                    { "name": "Dr. R. S. Hari Vignesh", "designation": "Assistant Professor", "exp": "1" },
-                    { "name": "Dr. R. S. Seethalakshmi", "designation": "Senior Resident", "exp": "15" }
+                    { "name": "Dr. R. Gnanasekaran", "designation": "Professor"},
+                    { "name": "Dr. K. Akila", "designation": "Associate Professor"},
+                    { "name": "Dr. S. Dharshini", "designation": "Assistant Professor"},
+                    { "name": "Dr. R. S. Hari Vignesh", "designation": "Assistant Professor"},
+                    { "name": "Dr. R. S. Seethalakshmi", "designation": "Senior Resident" }
                 ],
 
                 "services": [
@@ -693,32 +692,26 @@
                         {
                         "name": "Dr. S. Sivaraman",
                         "designation": "Professor & HOD",
-                        "exp": 15
                         },
                         {
                         "name": "Dr. K. Ronald Roy",
                         "designation": "Professor",
-                        "exp": 10
                         },
                         {
                         "name": "Dr. Dana Prabagaran",
                         "designation": "Assistant Professor",
-                        "exp": 2
                         },
                         {
                         "name": "Dr. K. Sandhya",
                         "designation": "Assistant Professor",
-                        "exp": 1
                         },
                         {
                         "name": "Dr. P. Fidal Hastro",
                         "designation": "Senior Resident",
-                        "exp": 0
                         },
                         {
                         "name": "Mrs. Kirthana",
                         "designation": "Clinical Psychologist",
-                        "exp": 0
                         }
                 ],
                 services_desc:"The Department offers comprehensive psychiatric services including outpatient, inpatient, emergency, and consultation-liaison care. Specialized clinics provide focused interventions in areas such as child psychiatry, addiction medicine, and geriatric mental healthx",

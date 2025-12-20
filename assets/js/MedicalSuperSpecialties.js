@@ -3,20 +3,66 @@
         const depts = [
             {
                 id: "Cardiology", name: "Cardiology", icon: `<i class="material-symbols-outlined">ecg_heart</i>`, color: "#3558c9ff", colorDark: "#07268dff",
-                desc: "Comprehensive internal medicine care for all age groups.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-                pubStats: [{label: "Publications", value: "30+"}],
-                pubHighlights: ["Diabetes management"],
-                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-                research: ["Chronic disease management"],
-                events: ["World Diabetes Day"],
-                achievements: ["Best Medicine Dept"],
-                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+                
+                "desc": "The Department of Cardiology provides comprehensive diagnostic and interventional cardiac services. The department focuses on preventive, curative, and rehabilitative cardiology care using advanced technologies. It also plays a key role in training undergraduate and postgraduate students in modern cardiology practice.",
+
+                "vision": "To provide premium quality cardiac services to the needy population. To strive for excellence in patient care through advanced diagnostics and treatment. To instil knowledge and clinical skills in students and postgraduates, enabling them to manage cardiac patients with confidence.",
+
+                "mission": "To deliver round-the-clock cardiac catheterization laboratory services including primary percutaneous coronary intervention. To provide accurate analysis and interpretation of electrocardiograms and echocardiograms. To offer comprehensive cardiac assessment through treadmill testing and Holter monitoring.",
+
+                "objectives": [
+                    "To provide temporary and permanent pacemaker implantation services.",
+                    "To offer cardiac resynchronization therapy for eligible patients.",
+                    "To manage structural heart diseases such as ASD and PDA.",
+                    "To perform electrophysiological studies for rhythm disorders."
+                ],
+
+                "infrastructure": [
+                    "Outpatient department equipped with ECG, echocardiography and treadmill testing facilities.",
+                    "Dedicated cardiac care unit with multiparameter monitors, bedside echocardiography and transesophageal echocardiography.",
+                    "Holter monitoring facilities for continuous rhythm assessment."
+                ],
+
+                "faculty": [
+                    {
+                    "name": "Dr. A. Meenakshi",
+                    "designation": "Assistant Professor",
+                    "experience": "9 Years"
+                    },
+                    {
+                    "name": "Dr. H. Vasanthakumar",
+                    "designation": "Assistant Professor",
+                    "experience": "4 Years"
+                    }
+                ],
+
+                "services": [
+                    "Outpatient cardiology services.",
+                    "Diagnostic services including ECG, ECHO, TEE, Holter monitoring and treadmill testing.",
+                    "Round-the-clock cardiac catheterization laboratory procedures.",
+                    "Intensive cardiac care services."
+                ],
+
+
+                "pubHighlights": [],
+
+                "pubYearwise": [],
+
+                "research": [
+                    "Clinical research focused on interventional cardiology procedures.",
+                    "Outcome-based studies in intensive cardiac care management.",
+                    "Electrophysiology and device-based therapy research."
+                ],
+
+                "events": [
+                    "World Cardiology Day awareness programmes"
+                ],
+
+                "achievements": [
+                    "Successful implementation of round-the-clock primary PCI services.",
+                    "Advanced diagnostic and interventional cardiology services.",
+                    "Comprehensive cardiac care and monitoring facilities."
+                ]
             },
             {
                 id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#27ae60", colorDark: "#229954",

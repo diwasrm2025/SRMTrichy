@@ -2,20 +2,69 @@
         const depts = [
             {
                 id: "Cardio Vascular & Thoracic Surgery", name: "Cardio Vascular & Thoracic Surgery", icon: `<i class="material-symbols-outlined">ecg_heart</i>`, color: "#3558c9ff", colorDark: "#07268dff",
-                desc: "Comprehensive internal medicine care for all age groups.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-                pubStats: [{label: "Publications", value: "30+"}],
-                pubHighlights: ["Diabetes management"],
-                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-                research: ["Chronic disease management"],
-                events: ["World Diabetes Day"],
-                achievements: ["Best Medicine Dept"],
-                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+                 "desc": "The Department of Cardiothoracic Surgery provides comprehensive surgical care for diseases of the heart, lungs, and chest wall. The department focuses on advanced cardiac and thoracic procedures with emphasis on safety, pain-free recovery, and optimal outcomes. Complete postoperative rehabilitation and quality patient care remain the core strengths of the department.",
+                "vision": "To provide affordable heart and lung care for all. To ensure pain-free recovery with easy breathing and complete rehabilitation. To promote a healthy heart and lung for every individual.",
+
+                "mission": "To achieve full occupational rehabilitation after heart and lung surgery. To empower patients with knowledge and eliminate fear related to heart and lung diseases. To promote teamwork among healthcare professionals to transform vision into effective care delivery.",
+
+                "objectives": [
+                    "To empower patients and heart and lung care team members with knowledge.",
+                    "To promote effective teamwork in cardiothoracic care delivery.",
+                    "To ensure maximum occupational rehabilitation of patients after heart and lung surgery.",
+                    "To deliver safe, ethical, and patient-centred cardiothoracic surgical care."
+                ],
+
+                "infrastructure": [
+                    "24×7 intensive care unit and trauma care services.",
+                    "State-of-the-art operation theatres with advanced cardiothoracic facilities.",
+                    "Heart–lung machine for open heart surgeries.",
+                    "Advanced patient monitoring systems.",
+                    "Infusion and syringe pump devices.",
+                    "Mechanical circulatory support devices."
+                ],
+                "faculty": [
+                    {
+                        "name": "Dr. R. Ashwene",
+                        "designation": "Assistant Professor",
+                    }
+                ],
+               "services": [
+                    "Comprehensive heart, lung, and chest wall surgeries.",
+                    "Adult and paediatric cardiac surgeries.",
+                    "Thoracic surgeries including minimally invasive procedures.",
+                    "Postoperative cardiac and pulmonary rehabilitation services.",
+                    "Emergency cardiothoracic trauma care."
+                ],
+
+                "pubStats": [
+                ],
+                
+                "pubHighlights": [
+                    "Primary Cardiac Sarcomas: A comprehensive review of clinical characteristics, diagnosis, treatment options, prognosis and a case report.",
+                    "Rerouting of surgical anomalous IVC drainage.",
+                    "Surgical procedure TAPVC repair."
+                ],
+
+                "keyResearchHighlights": [
+                    "Midterm outcome of mitral valve repair using indigenous PTFE ring.",
+                    "Surgical repair of aortic left ventricular tunnel.",
+                    "Arising from left coronary non-coronary commissure causing RV failure in LVAD implantation.",
+                    "Pannus removal without valve replacement – minimally invasive cardiac surgery experience.",
+                    "Fluid overload in post-operative CABG patients."
+                ],
+                "research": [
+                    "Clinical and surgical outcome studies in cardiac and thoracic surgeries.",
+                    "Research focused on minimally invasive cardiothoracic surgical techniques.",
+                    "Postoperative rehabilitation and recovery outcome analysis."
+                ],
+                "events": [
+                    "Heart Day – AHS"
+                ],
+
+                "achievements": [
+                    "Successful performance of minimally invasive cardiac surgeries (MICS).",
+                    "Advanced video-assisted thoracic (VATS) surgeries."
+                ]
             },
             {
                 id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
@@ -331,27 +380,99 @@
                     "Dr.V.Jayaraman: International Travel Fellowship, APSI (1991)",
                     "Dr.V.Jayaraman: Sriram Travel Fellowship, NAMS (1995)"
                 ],
-                gallery: [
+                gallery1: [
                     {name: "Consultation Room", icon: "fa-stethoscope", event: "Derma OPD", date: "Jan 20, 2024"},
                     {name: "Laser Unit", icon: "fa-bolt", event: "Laser Therapy Center", date: "Feb 14, 2024"}
                 ]
             },
             {
-                id: "Vascular Surgery", name: "Vascular Surgery", icon: `<i class="material-symbols-outlined">ac_unit</i>`, color: "#673ab7", colorDark: "#512da8",
+                id: "Vascular Surgery", name: "Vascular Surgery", icon: `<i class="material-symbols-outlined">ac_unit</i>`, color: "#afb73aff", colorDark:"#a8a02dff",
                 desc: "Comprehensive mental health services with counseling and therapy.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["Consultation rooms", "Counseling center", "De-addiction unit", "Psychology testing room"],
-                  faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-                pubStats: [{label: "Publications", value: "20+"}],
+                "desc": "The Department of Vascular Surgery provides comprehensive evaluation and management of arterial, venous, and lymphatic diseases using advanced medical, surgical, and endovascular techniques, with a focus on patient safety, limb salvage, and quality care.",
+                "vision": "To provide high quality and affordable vascular care for needy patients.",
+
+                "mission": "To provide comprehensive, timely, and patient-centred vascular care for individuals with diseases of the arterial, venous, and lymphatic systems. The department delivers evidence-based diagnosis and advanced surgical and endovascular treatments for conditions affecting the limbs, neck, and abdominal vessels, while prioritizing patient safety, limb salvage, and quality of life through multidisciplinary collaboration and continuous clinical excellence.",
+
+                "objectives": [
+                    "To provide accurate and early diagnosis of arterial, venous, and lymphatic vascular diseases using modern diagnostic modalities.",
+                    "To deliver comprehensive medical, surgical, and endovascular management for conditions such as varicose veins, peripheral arterial disease, vascular trauma, aneurysms, and vascular malformations.",
+                    "To ensure timely limb-saving interventions for emergencies including acute limb ischemia, diabetic foot ulcers, and traumatic vascular injuries.",
+                    "To establish and maintain effective hemodialysis vascular access for patients with chronic kidney disease.",
+                    "To offer advanced preventive and therapeutic care for carotid and peripheral vascular diseases to reduce morbidity and mortality.",
+                    "To promote multidisciplinary collaboration for holistic patient management and improved clinical outcomes.",
+                    "To uphold high standards of patient safety, ethical practice, and quality care while continuously updating clinical skills and knowledge."
+                ],
+                "infra": [
+                    "Dedicated vascular surgery outpatient consultation rooms",
+                    "Screening Doppler facilities",
+                    "Fully equipped operation theatres for open and endovascular procedures",
+                    "Surgical ICU for post-operative care",
+                    "Post-operative vascular ward",
+                    "Advanced imaging support (CT/MR Angiography)"
+                ],
+                "faculty": [
+                    {
+                    "name": "Dr Arun Prasath S",
+                    "designation": "Professor & Head, Department of Vascular Surgery"
+                    }
+                ],
+                "services": [
+                    "Vascular surgery consultation",
+                    "Screening Doppler evaluation",
+                    "Peripheral arterial disease management",
+                    "Hemodialysis vascular access creation and maintenance",
+                    "Carotid artery disease management",
+                    "Varicose vein treatment (Laser, RFA, surgery)",
+                    "Diabetic foot care and limb salvage",
+                    "Management of vascular trauma",
+                    "Endovascular interventions"
+                ],
+
+                "research": [
+                    "Peripheral arterial disease outcomes",
+                    "Diabetic foot limb salvage strategies",
+                    "Hemodialysis access optimization",
+                    "Endovascular treatment outcomes"
+                ],
+
+                "events": [
+                    "Vascular awareness programs",
+                    "Diabetic foot care camps",
+                    "World Vascular Day observance"
+                ],
+                pubStats: [{label: "Publications", value: "7"},{label: "National", value: "7"}],
                 pubHighlights: ["Depression management"],
-                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-                research: ["Mental health awareness", "Addiction treatment"],
-                events: ["World Mental Health Day"],
-                achievements: ["Excellence in Mental Health"],
-                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+                "pubYearwise": [
+                    {
+                        "year": "2025",
+                        "title": "Outcomes following Renal Revascularisation: A Five Year Institutional Experience",
+                        "journal": "Med e J",
+                        "type": "National"
+                    },
+                    {
+                        "year": "2023",
+                        "title": "Giant Hepatic Artery Aneurysm: A Rare Case Report",
+                        "journal": "IJVES",
+                        "type": "National"
+                    },
+                    {
+                        "year": "2025",
+                        "title": "Outcomes following spliced vein graft and composite graft as conduit for infrainguinal bypass: An institutional experience",
+                        "journal": "IJVES",
+                        "type": "National"
+                    },
+                    {
+                        "year": "2025",
+                        "title": "Arteria Peronea Magna",
+                        "journal": "IJVES",
+                        "type": "National"
+                    }
+                ],
+                "achievements": [
+                    "Successful limb salvage in critical ischemia cases",
+                    "Advanced endovascular procedures introduced",
+                    "High success rate in AV fistula creation"
+                ],
             },
             {
                 id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
@@ -362,7 +483,7 @@
                 infra: ["Pulmonary function lab", "Bronchoscopy suite", "Respiratory ICU", "Sleep study lab"],
                   faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
                 services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
-                pubStats: [{label: "Publications", value: "19+"}],
+                pubStats: [{label: "Publications", value: "7"},{label: "International", value: "7"},{label: "National", value: "7"}],
                 pubHighlights: ["COPD management"],
                 pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
                 research: ["Asthma protocols", "TB treatment"],

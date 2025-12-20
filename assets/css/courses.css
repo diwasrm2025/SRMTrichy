@@ -580,7 +580,7 @@ a{
             padding:14px var(--spacing-md) 0px;
             transition: var(--transition);
         }
-        .nmc-modal .document-card .document-title a{
+        .nmc-modal .document-card .document-title,.nmc-modal .document-card .document-title a{
             color: white;
         }
         .nmc-modal .document-card:hover{

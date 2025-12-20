@@ -11244,3 +11244,252 @@ grid-template-columns: 1fr;
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Container */
+        .transport-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-xl);
+        }
+        
+        /* Section */
+        .transport-section {
+            padding: var(--spacing-5xl) 0;
+        }
+        
+        .transport-section-title {
+            font-size: var(--font-5xl);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-text-primary);
+            position: relative;
+        }
+        
+        .transport-section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--color-accent-yellow);
+            margin: var(--spacing-md) auto var(--spacing-2xl);
+            border-radius: var(--radius-sm);
+        }
+        
+        /* Info Card */
+        .transport-info-card {
+            background: var(--color-white);
+            padding: var(--spacing-3xl);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-bottom: var(--spacing-4xl);
+            border-left: 5px solid var(--color-primary);
+        }
+        
+        .transport-info-card p {
+            font-size: var(--font-lg);
+            color: var(--color-text-secondary);
+            line-height: var(--line-height-loose);
+            text-align: center;
+        }
+        
+        /* City Bus Section */
+        .transport-city-section {
+            background: var(--color-white);
+            padding: var(--spacing-4xl) 0;
+        }
+        
+        .transport-city-title {
+            font-size: var(--font-4xl);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--spacing-3xl);
+            color: var(--color-text-primary);
+        }
+        
+        .transport-city-timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .transport-timeline-item {
+            background: linear-gradient(135deg, var(--color-background-light) 0%, var(--color-white) 100%);
+            padding: var(--spacing-2xl);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--spacing-xl);
+            box-shadow: var(--shadow-md);
+            border-left: 4px solid var(--color-primary);
+            transition: all var(--transition);
+            animation: transport-slideIn 0.6s ease backwards;
+        }
+        
+        .transport-timeline-item:nth-child(1) { animation-delay: 0.1s; }
+        .transport-timeline-item:nth-child(2) { animation-delay: 0.2s; }
+        
+        .transport-timeline-item:hover {
+            transform: translateX(10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        @keyframes transport-slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .transport-timeline-time {
+            font-size: var(--font-3xl);
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .transport-timeline-location {
+            font-size: var(--font-lg);
+            color: var(--color-text-secondary);
+        }
+        
+        /* Table Section */
+        .transport-table-section {
+            padding: var(--spacing-5xl) 0;
+        }
+        
+        .transport-table-title {
+            font-size: var(--font-4xl);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--spacing-3xl);
+            color: var(--color-text-primary);
+        }
+        
+        .transport-table-wrapper {
+            background: var(--color-white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            animation: transport-fadeIn 0.8s ease;
+        }
+        .transport-table th{
+            text-align: center !important;
+        }
+        @keyframes transport-fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .transport-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .transport-table thead {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            color: var(--color-white);
+        }
+        
+        .transport-table th {
+            padding: var(--spacing-lg) var(--spacing-md);
+            text-align: left;
+            font-weight: 600;
+            font-size: var(--font-lg);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .transport-table tbody tr {
+            border-bottom: 1px solid var(--color-background-light);
+            transition: background var(--transition);
+        }
+        
+        .transport-table tbody tr:hover {
+            background: var(--color-background-light);
+        }
+        
+        .transport-table tbody tr:last-child {
+            border-bottom: none;
+        }
+        
+        .transport-table td {
+            padding: var(--spacing-lg) var(--spacing-md);
+            color: var(--color-text-secondary);
+            font-size: var(--font-md);
+        }
+        
+        .transport-table td:first-child {
+            font-weight: 600;
+            color: var(--color-text-primary);
+        }
+        
+        .transport-table td:nth-child(2) {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+        
+        /* Day Group */
+        .transport-day-group {
+            background: var(--color-background-light);
+            font-weight: 700;
+            color: var(--color-text-primary);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .transport-hero h1 {
+                font-size: var(--font-4xl);
+            }
+            
+            .transport-hero-subtitle {
+                font-size: var(--font-lg);
+            }
+            
+            .transport-section-title,
+            .transport-city-title,
+            .transport-table-title {
+                font-size: var(--font-3xl);
+            }
+            
+            .transport-table-wrapper {
+                overflow-x: auto;
+            }
+            
+            .transport-table {
+                min-width: 600px;
+            }
+            
+            .transport-table th,
+            .transport-table td {
+                padding: var(--spacing-md) var(--spacing-sm);
+                font-size: var(--font-sm);
+            }
+        }
+
+
+
+        .infra-spec-grid {
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-xl);
+            /* margin-top: 3rem; */
+            margin:3rem auto ;
+        }
+
+        .infra-spec-card {
+            background: var(--color-white);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition);
+            border: 1px solid #f0f0f0;
+        }
+        .infra-spec-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
