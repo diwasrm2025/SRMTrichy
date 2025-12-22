@@ -72,6 +72,7 @@
                 </ul>
               </li>
               <li><a href="./aboutus.html#compliance">Awards & Recognition</a></li>
+              <li><a href="./career.html">Career</a></li>
               <li><a href="./others.html">Others</a></li>
             </ul>
           </li>
@@ -82,7 +83,7 @@
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./ug_course_new.html">Under Graduate</a></li>
-                  <li><a href="./course.html#pg-courses">Post Graduate</a></li>
+                  <li><a href="./pg_course_new.html">Post Graduate</a></li>
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>

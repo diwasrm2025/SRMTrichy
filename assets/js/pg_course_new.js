@@ -1,134 +1,111 @@
 const departmentData = {
-  anatomy: {
-    name: "Anatomy",
-    phase: "Phase 1",
-    curriculum: "Gross anatomy, embryology, histology with cadaveric dissection and practical sessions.",
-    timetable: "Morning dissection, afternoon demonstrations and tutorials.",
-    calendar: "Internal assessments, dissection completion and university exams."
-  },
-  physiology: {
-    name: "Physiology",
-    phase: "Phase 1",
-    curriculum: "Cell physiology, cardiovascular, respiratory, neurophysiology and hematology.",
-    timetable: "Theory lectures with experimental physiology labs.",
-    calendar: "Practical exams, revision weeks and formative assessments."
-  },
-  biochemistry: {
-    name: "Biochemistry",
-    phase: "Phase 1",
-    curriculum: "Metabolism, enzymes, molecular biology and nutrition.",
-    timetable: "Integrated lectures with clinical correlation sessions.",
-    calendar: "Block exams, viva and final professional exam."
-  },
-  community_medicine1: {
-    name: "Community Medicine",
-    phase: "Phase 1",
-    curriculum: "Public health basics, epidemiology and biostatistics.",
-    timetable: "Classroom teaching with field exposure.",
-    calendar: "Field visits, surveys and assessment schedules."
-  },
-  community_medicine2: {
-    name: "Community Medicine",
-    phase: "Phase 3 Part 2",
-    curriculum: "Public health basics, epidemiology and biostatistics.",
-    timetable: "Classroom teaching with field exposure.",
-    calendar: "Field visits, surveys and assessment schedules."
-  },
+
+  /* ================= PHASE 2 ================= */
   pathology: {
     name: "Pathology",
-    phase: "Phase 2",
     curriculum: "General pathology, systemic pathology and hematology.",
     timetable: "Microscopy labs and case-based discussions.",
     calendar: "Slide exams, internal assessments and university exams."
   },
+
   pharmacology: {
     name: "Pharmacology",
-    phase: "Phase 2",
     curriculum: "Drug mechanisms, therapeutic uses and adverse effects.",
     timetable: "Problem-based learning and prescription writing.",
     calendar: "Continuous assessment and final theory exams."
   },
+
   microbiology: {
     name: "Microbiology",
-    phase: "Phase 2",
     curriculum: "Bacteriology, virology, parasitology and immunology.",
     timetable: "Lab diagnostics and culture techniques.",
     calendar: "Practical exams and theory assessments."
   },
+
+  forensic: {
+    name: "Forensic Medicine & Toxicology",
+    curriculum: "Medical jurisprudence, forensic science and toxicology.",
+    timetable: "Postmortem demonstrations and lectures.",
+    calendar: "Court visits, practical exams and theory assessments."
+  },
+
   community_medicine2: {
     name: "Community Medicine",
-    phase: "Phase 3 Part 2",
-    curriculum: "Public health basics, epidemiology and biostatistics.",
+    curriculum: "Applied epidemiology, biostatistics and public health.",
     timetable: "Classroom teaching with field exposure.",
-    calendar: "Field visits, surveys and assessment schedules."
+    calendar: "Field visits, surveys and internal assessments."
   },
+
+  /* ================= PHASE 3 PART 2 ================= */
   orthopaedics: {
     name: "Orthopaedics",
-    phase: "Phase 3 Part 2",
-    curriculum: "General pathology, systemic pathology and hematology.",
-    timetable: "Microscopy labs and case-based discussions.",
-    calendar: "Slide exams, internal assessments and university exams."
+    curriculum: "Musculoskeletal disorders, trauma and orthopaedic surgery.",
+    timetable: "OPD clinics, ward rounds and OT exposure.",
+    calendar: "Clinical assessments and final exams."
   },
-  psychiatry: {
-    name: "Psychiatry",
-    phase: "Phase 3 Part 2",
-    curriculum: "General pathology, systemic pathology and hematology.",
-    timetable: "Microscopy labs and case-based discussions.",
-    calendar: "Slide exams, internal assessments and university exams."
-  },
+
   ophthalmology: {
     name: "Ophthalmology",
-    phase: "Phase 3 Part 2",
-    curriculum: "Drug mechanisms, therapeutic uses and adverse effects.",
-    timetable: "Problem-based learning and prescription writing.",
-    calendar: "Continuous assessment and final theory exams."
+    curriculum: "Eye diseases, refraction and ophthalmic surgeries.",
+    timetable: "OPD clinics, skill labs and OT postings.",
+    calendar: "Clinical exams and skill assessments."
   },
+
   dermatology: {
     name: "Dermatology, Venereology & Leprosy",
-    phase: "Phase 3 Part 2",
-    curriculum: "Medical jurisprudence, toxicology and legal medicine.",
-    timetable: "Postmortem demonstrations and lectures.",
-    calendar: "Court visit schedules and examinations."
+    curriculum: "Skin disorders, STDs and leprosy management.",
+    timetable: "OPD-based teaching and case discussions.",
+    calendar: "Clinical exams and continuous assessments."
   },
-  forensic: {
-    name: "Forensic Medicine",
-    phase: "Phase 3 Part 2",
-    curriculum: "Medical jurisprudence, toxicology and legal medicine.",
-    timetable: "Postmortem demonstrations and lectures.",
-    calendar: "Court visit schedules and examinations."
+
+  psychiatry: {
+    name: "Psychiatry",
+    curriculum: "Mental health disorders and psychopharmacology.",
+    timetable: "OPD clinics, ward rounds and seminars.",
+    calendar: "Case presentations and final clinical exams."
   },
+
+  /* ================= PHASE 3 ================= */
   general_medicine: {
     name: "General Medicine",
-    phase: "Phase 3",
     curriculum: "Clinical diagnosis, internal medicine and patient care.",
     timetable: "Ward rounds, OPD postings and seminars.",
     calendar: "Clinical postings, exams and internship preparation."
   },
+
   general_surgery: {
     name: "General Surgery",
-    phase: "Phase 3",
     curriculum: "Surgical principles, operative procedures and trauma care.",
     timetable: "OT exposure, ward duties and case presentations.",
     calendar: "Clinical exams and posting rotations."
   },
-  paediatrics: {
-    name: "Paediatrics",
-    phase: "Phase 3",
-    curriculum: "Child health, growth, development and neonatal care.",
-    timetable: "NICU exposure, OPD and ward teaching.",
-    calendar: "Case logs, assessments and exams."
-  },
-  obg: {
+
+  obstetrics_gynaecology: {
     name: "Obstetrics & Gynaecology",
-    phase: "Phase 3",
     curriculum: "Pregnancy, labour, gynecological disorders and surgery.",
     timetable: "Labour ward postings and OT exposure.",
     calendar: "Clinical exams and internship schedule."
+  },
+
+  paediatrics: {
+    name: "Paediatrics",
+    curriculum: "Child health, growth, development and neonatal care.",
+    timetable: "NICU exposure, OPD and ward teaching.",
+    calendar: "Case logs, assessments and exams."
   }
-};
+
+};;
 
 /* ===== FUNCTIONS ===== */
 function togglePhase(el) {
+  const allPhases = document.querySelectorAll(".phase");
+
+  allPhases.forEach(phase => {
+    if (phase !== el.parentElement) {
+      phase.classList.remove("active");
+    }
+  });
+
   el.parentElement.classList.toggle("active");
 }
 
