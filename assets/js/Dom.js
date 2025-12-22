@@ -81,14 +81,14 @@
               <li class="has-submenu" data-submenu="courses">
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="./course.html#ug-courses">Under Graduate</a></li>
+                  <li><a href="./ug_course_new.html">Under Graduate</a></li>
                   <li><a href="./course.html#pg-courses">Post Graduate</a></li>
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
               <li class='pdf'><a href="./assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><i class='fa fa-file-pdf'></i></li>
               <li class='pdf'><a href="./assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><i class='fa fa-file-pdf'></i></li>
-              <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
+              <li class='pdf'><a href="./bioethics.html">Bio Ethics</a></li>
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -435,7 +435,12 @@ const pages = [
       { title: 'News & Events', path: 'Media > News & Events', url: './media.html#news' },
       { title: 'Gallery', path: 'Media > Gallery', url: './media.html#gallery' },
       { title: 'Video Gallery', path: 'Media > Video Gallery', url: './videogallery.html' },
-      { title: 'NMC Guidelines', path: 'NMC', url: '#' }
+      { title: 'NMC Guidelines', path: 'NMC', url: './nmc.html' },
+      { title: 'Bio Ethics', path: 'Bio Ethics', url: './bioethics.html' },
+      { title: 'Others', path: 'Other Pages', url: './others.html' },
+      { title: 'BMWM', path: 'BMWM', url: './BMWM.html' },
+      { title: 'Transport', path: 'NMC', url: './nmc.html' },
+      { title: 'NMC Guidelines', path: 'NMC', url: './nmc.html' },
     ];
 
     const searchInput = document.getElementById('searchInput');

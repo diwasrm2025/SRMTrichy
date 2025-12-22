@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Doctor - Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/pg_course.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+</head>
+<body>
+    <!-- Header -->
+   <div id="topbar"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+
+    <section class="breadcrum">
+        <h1>Doctors</h1>
+        <div class="subtitle">
+          <a href="index.html">Home</a>
+          <div class="round"></div>
+          <a href="doctors.html">Hospital Service</a>
+          <div class="round"></div>
+          <span class="active">Doctor</span>
+        </div>
+    </section>
+
+        
+            </div>
+        </section>
+
+
+    <!-- Main Container -->
+    <div class="main-container">
+   
+        
+        <aside class="sidebar">
+            <h2><i class="fas fa-graduation-cap"></i> UG Course</h2>
+
+            <div class="phase">
+                <div class="phase-header" onclick="togglePhase(this)">Phase 1 <i class="fas fa-chevron-down"></i></div>
+                <div class="phase-body">
+                <button onclick="loadDept('anatomy')">Anatomy</button>
+                <button onclick="loadDept('physiology')">Physiology</button>
+                <button onclick="loadDept('biochemistry')">Biochemistry</button>
+                <button onclick="loadDept('community_medicine1')">Community Medicine</button>
+                </div>
+            </div>
+
+            <div class="phase">
+                <div class="phase-header" onclick="togglePhase(this)">Phase 2 <i class="fas fa-chevron-down"></i></div>
+                <div class="phase-body">
+                <button onclick="loadDept('pathology')">Pathology</button>
+                <button onclick="loadDept('pharmacology')">Pharmacology</button>
+                <button onclick="loadDept('microbiology')">Microbiology</button>
+                <button onclick="loadDept('forensic')">Forensic Medicine</button>
+                </div>
+            </div>
+
+            <div class="phase">
+                <div class="phase-header" onclick="togglePhase(this)">Phase 3 Part 1<i class="fas fa-chevron-down"></i></div>
+                <div class="phase-body">
+                <button onclick="loadDept('general_medicine')">General Medicine</button>
+                <button onclick="loadDept('general_surgery')">General Surgery</button>
+                <button onclick="loadDept('paediatrics')">Paediatrics</button>
+                <button onclick="loadDept('obg')">Obstetrics & Gynaecology</button>
+                </div>
+            </div>
+            <div class="phase">
+                <div class="phase-header" onclick="togglePhase(this)">Phase 3 Part 2<i class="fas fa-chevron-down"></i></div>
+                <div class="phase-body">
+                <button onclick="loadDept('community_medicine2')">Community Medicine</button>
+                <button onclick="loadDept('orthopaedics')">Orthopaedics</button>
+                <button onclick="loadDept('ophthalmology')">Ophthalmology</button>
+                <button onclick="loadDept('dermatology')">Dermatology, Venereology & Leprosy</button>
+                <button onclick="loadDept('psychiatry')">Psychiatry</button>
+                </div>
+            </div>
+        </aside>
+        <main class="content" id="content">
+            <div class="card">
+                <h1>MBBS Course Structure</h1>
+                <p>Select a department to view curriculum, timetable and academic calendar.</p>
+            </div>
+        </main>
+    </div>
+     <!-- Footer -->
+    <footer id="footer"></footer>
+    
+    <script src="./assets/js/Dom.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+    <script src="./assets/js/pg_course_new.js"></script>
+    
+    
+</body>
+</html>
